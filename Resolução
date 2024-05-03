@@ -1,0 +1,18 @@
+dias =int(input('Digite a quantidade de dias'))
+
+qntdiasano = 365
+qntdiasmes = 30
+
+ano = dias // qntdiasano
+
+print(ano, "Ano(s)")
+
+dia = dias % qntdiasano
+
+mes = dia // qntdiasmes
+
+print(mes,"Mes")
+
+dia1 = dia % qntdiasmes
+
+print(dia1,"dia(s)")
